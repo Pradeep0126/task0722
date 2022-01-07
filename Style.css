@@ -187,3 +187,13 @@ color: white;
     background-color: #adff2f;
     border: solid #1d1c1c 2px;
 }
+.Nav{
+    background-color: rgb(0, 0, 255);
+    border: 2px solid #ff0000;
+ ;
+}
+
+.nav-link{
+    color: white;
+    height: 20px;
+}
