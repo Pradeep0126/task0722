@@ -187,3 +187,31 @@ color: white;
     background-color: #adff2f;
     border: solid #1d1c1c 2px;
 }
+.footer{
+    font-weight: bold;
+    font-size: 16px;
+    padding-left:80px;
+    background-color: rgba(88, 87, 87, 0.473);
+
+}
+.item-devlop{
+    color: rgba(236, 3, 3, 0.603);
+}
+.social-links{
+    float: right;
+    padding-top: 35px;
+}
+.item-devlop{
+    color: rgba(236, 3, 3, 0.603);
+}
+.social-links{
+    float: right;
+    padding-top: 35px;
+}
+.dropdown-menu{
+    background-color: grey;
+}
+.navbar{
+    background-color: #b7daee;
+    font-weight: bold;
+}
