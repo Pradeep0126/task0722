@@ -192,23 +192,19 @@ border: solid #1d1c1c 2px;
 font-weight: bold;
 font-size: 16px;
 padding-left:80px;
-background-color: rgba(88, 87, 87, 0.473);
+background-color: rgb(102, 46, 194);
+}
+.item-devlop{
+color: rgba(236, 3, 3, 0.603);
+}
+.social-links{
+float: right;
+padding-top: 35px;
+}
+.item-devlop{
+color: rgba(236, 3, 3, 0.603);
+}
 
-}
-.item-devlop{
-color: rgba(236, 3, 3, 0.603);
-}
-.social-links{
-float: right;
-padding-top: 35px;
-}
-.item-devlop{
-color: rgba(236, 3, 3, 0.603);
-}
-.social-links{
-float: right;
-padding-top: 35px;
-}
 .dropdown .dropdown-menu{
 background-color: #007bff!important;
 }
@@ -219,6 +215,12 @@ color: rgb(247, 252, 247);
 .header-special{
 color: rgb(148, 137, 16);
 margin-left: 20px;
-
 }
-
+.footer-link{
+    display: flex;
+    color: rgba(112, 160, 216, 0.849);
+}
+.social-links{
+    font-size: 36px;
+    color: black;
+}
