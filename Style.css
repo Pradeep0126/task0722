@@ -51,11 +51,7 @@ color: #fff;
 .container{
     padding-top: 20px;
 }
-.row{
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+
 }
 .Head{
     background-color:rgb(137, 95, 236);
@@ -131,13 +127,10 @@ color: #fff;
 .Serial{
     padding-left: 15px;
 }
-.Tablehead{
+.sec_head{
     font-size:22px;
-    background-color:  rgb(138, 43, 226);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    padding-left: 10px;
+    background-color:rgb(138, 43, 226)!important ;
+    color: white;  
 }
 .modal-header{
     background-color:  rgb(138, 43, 226);
@@ -182,19 +175,11 @@ color: #fff;
     text-align: center;
     color:rgb(15, 15, 15);
     padding-top: 25px;
-
 }
-
 .symb{
     font-size: 30px;
     background-color: #adff2f;
     border: solid #1d1c1c 2px;
-}
-.Nav{
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 20px;
-    padding-bottom: 20px;   
 }
 .nav-link{
     color: #ffffff;
@@ -204,15 +189,15 @@ color: #fff;
     height:20px;
     width: 20px;   
 }
-#navbarText{
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+#Navbar{
+   margin-top:-37px ;
 }
-.navbar{
-    border: 3px solid #ff0000;
-    height: 50px;
-    
-
+.navigation{
+    height:50px;
+}
+.sec_second{
+    padding-top: 30px;
+}
+.second_sec{
+    margin-top: 10px;
 }
