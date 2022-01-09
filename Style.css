@@ -45,20 +45,28 @@ font-size:12px;
 .para_smack{
 color:black;
 font-size:1.5rem;
+padding-left: 92px;
 
-}   
+} 
+.middle{
+    margin-top: 50px;
+    padding-left: 144px;
+    padding-right: 35px;
+    padding-top: 17px;
+    width: 92%;
+    margin-bottom: 50px;
+
+} 
+.row{
+    padding-left: 160px;
+}
 .container{
 padding-top: 20px;
+
 }
-.row{
-padding-right: 150px;
-padding-left: 150px;
-padding-top: 20px;
-padding-bottom: 20px;
-}
-.Head{
-background-color:rgb(137, 95, 236);
-margin-top: 70px;
+.head{
+background-color:rgb(78, 6, 194)!important;
+margin-top: 30px;
 }
 
 .para_promotion{
@@ -158,10 +166,15 @@ padding: 5px;
 }
 #mycarousel{
     background-color: rgb(171, 171, 236);
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width: 100%;
-    align-items: center;
+    width: 85%;
+}
+.top{
+    margin-top: 50px;
+    padding-left: 144px;
+    padding-right: 35px;
+    padding-top: 17px;
+    width: 92%;
+    margin-bottom: 50px;
 }
 
 .car_logo{
@@ -190,9 +203,13 @@ border: solid #1d1c1c 2px;
 }
 .footer{
 font-weight: bold;
-font-size: 16px;
+font-size: 12px;
 padding-left:80px;
+padding-top: 18px;
 background-color: rgb(102, 46, 194);
+}
+.logo-start{
+    margin-top:8px;
 }
 .item-devlop{
 color: rgba(236, 3, 3, 0.603);
@@ -223,4 +240,24 @@ margin-left: 20px;
 .social-links{
     font-size: 36px;
     color: black;
+}
+.navbar{
+    height: 50px;
+    display: block;
+}
+#navbarSupportedContent{
+    margin-top: -30px;
+    padding: 131px;
+}
+.edge{
+    padding-left: 163px;
+    padding-right: 100px;
+}
+.head_visit{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.item-copyright{
+    width: 200%;
+    padding-left: 140px;
 }
