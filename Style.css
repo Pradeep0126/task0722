@@ -4,7 +4,8 @@ body{
 
 
 .head_sec{
-color: white;
+color: #fff;
+
 
 }   
 .para_sec{
@@ -58,6 +59,8 @@ color: white;
 }
 .Head{
     background-color:rgb(137, 95, 236);
+    height: 220px;
+    margin-top: 50px;
 }
 
 .para_promotion{
@@ -167,7 +170,7 @@ color: white;
     height:200px;
     width: 200px;
     float: left;
-    border: 1px solid grey;
+    border: 1px solid #808080;
     margin-right: 20px;
 }
 .para_car{
@@ -194,6 +197,10 @@ color: white;
 }
 
 .nav-link{
-    color: white;
+    color: #ffffff;
     height: 20px;
+}
+.navlogo{
+    height:30px;
+    width: 30px;   
 }
