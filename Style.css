@@ -258,6 +258,36 @@ margin-left: 20px;
     padding-left: 30px;
 }
 .item-copyright{
+    font-size: 15px;
     width: 200%;
     padding-left: 140px;
+}
+.string-methods{
+    padding-left: 160px;
+    font-size: 22px;
+}
+.string-length{
+    color: rgb(247, 232, 211);   
+}
+
+#string-slice{
+    color: rgb(204, 16, 148);
+}
+.string-replace{
+    color: rgb(22, 228, 22);
+}
+.string-toUpperCase{
+    color: rgb(233, 90, 90);
+}
+.string-toLowerCase{
+    color: rgb(219, 194, 52);
+}
+.String-concat{
+    color: rgb(147, 230, 23);
+}
+.String-trim{
+    color: mintcream;
+}
+.String-chartat{
+    color: rgb(26, 236, 156);
 }

@@ -27,22 +27,10 @@
             <a class="nav-link" href="#"><i class="fa fa-info-circle" aria-hidden="true">&nbsp;About us</i></a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-bars">&nbsp;Menu</i>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Appetizers</a>
-            <a class="dropdown-item" href="#">Main Course</a>
-            <a class="dropdown-item" href="#">desserts</a>
-            <a class="dropdown-item" href="#">drinks</a>
-        
-            <div class="dropdown-divider"></div>
-            <p class="header-special">Special</p>
-            <a class="dropdown-item" href="#">buffet</a>
-            <a class="dropdown-item" href="#">Weekend</a>
-            
-        </div>
-    
+             
         </li>
         <li class="nav-item">
             <a class="nav-link active" href="#"><i class="fa fa-id-card">&nbsp;Contact</i></a>
@@ -74,6 +62,18 @@
                     Reserve Table</button>
                 <span class="book_table">Click To Book Table</span>   
                 </div>
+    </div>
+    <div class="string-methods">
+        <!--<p class="string-length string-slice string-replace string-toUpperCase string-toLowerCase String-concat">This is to show example of string length</p>-->
+        <p class="string-length">String - length : This is to show example of string length</p>
+        <p id="string-slice">String - slice(12,27) : "Javascript , HTML, CSS, bootstrap"</p>
+        <p class="string-replace">String - Replace : Javascript is developed by Annibesant-(BrendanEich)</p>
+        <p class="string-toUpperCase">String - toUpperCase : my Name is corona,i origin at 2019</p>
+        <p class="string-toLowerCase">String - toLowerCase : IM COVIDSHIELD I CAN BOOST HUMAN HUMINTY TO FACE CORONA</p>
+        <p class="String-concat">String-Contact - Javascript is a  - Dynamic Language</p>
+        <p class="String-trim">     My javascript</p>
+        <p class="String-chartat">String-chartat(2) - MNC Culture</p>
+
     </div>
     </div>
 </header>
@@ -279,5 +279,50 @@
     
 <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    
+{
+let text ="This is to Show Example of String Length";
+console.log(text.length);
+}
+{
+let str ="Javascript, HTML, CSS, bootstrap";   
+console.log(str.slice(12,27));
+}
+var text="Javascript is developed by Annibesant";
+console.log(text.replace("Annibesant","Bredan Eich"))
+
+let str="my Name is corona,i origin at 2019";
+console.log(str.toUpperCase());
+{
+const text="IM COVIDSHIELD I CAN BOOST HUMAN HUMINTY TO FACE CORONA";
+console.log(text.toLowerCase());
+}
+{
+let text1 ="javaScript is a";
+let text2 ="Dynamic Language";
+let text3 = text1.concat(" ",text2);
+console.log(text3);
+}
+var text4 = "     My javascript";
+var text5 = text4.trim();
+console.log(text4.length , text5.length);
+
+{
+    let text="MNC Culture";
+    console.log(text.charAt(2))
+}
+
+     // let text1 ="This is to Show Example of String Length";
+    // let text2 ="JAVASCRIPT IS A";
+    // let text3 ="Dynamic Language";
+    // let text4 = text2.concat(" ",text3);
+    //console.log(text1.length,text1.slice(12,27),text1.replace("length","Slice"),text3.toUpperCase(),text2.toLowerCase(),(text4));
+    // console.log(text1.slice(12,27));
+    // console.log(text1.replace("length","Slice"));
+    // console.log(text.toUpperCase());
+    // console.log(text.toLowerCase());
+    // console.log(text4);
+    </script>
 </body>
 </html> 
