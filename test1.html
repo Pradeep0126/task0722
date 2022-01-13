@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    console.log('Hello World');
+    document.write("Hello World")
+</script>
+
+
+<script>  
+    function msg(){  
+    alert("Function example");  
+    }  
+    </script>  
+    <input type="button" onclick="msg()" value="call function"/> 
+    <br> 
+ <!-- Using arguments -->
+ <script>  
+    function getcube(number){  
+    alert(number*number*number);  
+    }  
+    </script>  
+    <input type="button" value="click" onclick="getcube(4)"/> 
+    <br> 
+    <!-- Return value -->
+    <script>  
+        function getInfo(){  
+        return "hello javatpoint! How r u?";  
+        }  
+        </script>  
+        <script>  
+        document.write(getInfo());  
+        </script>  
+        <br>
+        <!-- click event -->
+        <script >  
+            <!--  
+            function clickevent()  
+            {  
+                document.write("POP UP After clicking");  
+            }  
+            //-->  
+        </script>  
+       <h3>Events</h3>
+       <p>click event</p>
+        <input type="button" onclick="clickevent()" value="Who's this?"/>  
+       
+        
+        <!-- Mouse Hover -->
+        <script>  
+        
+        function mouseoverevent()  
+        {  
+            alert("Mouse Hover Event");  
+        }  
+      
+    </script>  
+    <p onmouseover="mouseoverevent()"> Move On Me</p> 
+    
+    <br>
+    <h2> Enter something here</h2>  
+<input type="text" id="input1" onfocus="focusevent()"/>  
+<script>  
+ 
+    function focusevent()  
+    {  
+    document.getElementById("input1").style.background=" yellow";  
+    }  
+  
+</script>
+
+<br><br>
+
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
+
+<script> 
+var text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.employees[2].firstName + " " + obj.employees[0].lastName;
+</script>
+<br><br>
+<h2>My JSON Ex</h2>
+
+<p id="demo1"></p>
+<script> 
+
+
+var order ='{"pizza":[' +
+'{"pizzaname":"Country Feast","Base" : "Cheese burst","Spicy":"yes","Veg":"yes"}' +
+'{"PizzaName":"Veggie Paradise","Base":"Thin crust","Spicy":"yes","Veg":"yes"}]}';
+
+obj = JSON.parse(order);
+document.getElementById("demo1").innerHTML =
+obj.pizza[1].pizzaname+" "+obj.pizza[1].Base+" "+obj.pizza[1].veg;
+</script>
+
+</body>
+</html>
