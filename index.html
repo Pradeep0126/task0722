@@ -220,7 +220,8 @@
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         
         <div>      
-            <script> 
+            <script>
+            console.log("JS String Methods"); 
             let text = "Pradeep Karamadi";
             console.log("String Length"+" "+text.length);
             </script>
@@ -232,7 +233,7 @@
 
             <script> 
             let sub = "Pradeep Karamadi";
-            console.log("String slice"+" "+sub.substring(8, 16));
+            console.log("String substring"+" "+sub.substring(8, 16));
             </script>
 
             <script> 
@@ -275,6 +276,28 @@
             console.log("String Char at"+" "+char1.charAt(3));
             console.log("String Char code at"+" "+char1.charCodeAt(3));
             </script>
+
+            <script> 
+            console.log("JS String Search(indexof) Examples");
+            let index = ("Hubli dharwad mangalore davangere chitradurga haveri dharwad hubli bangalore");
+            console.log("String indexOf ="+" "+index.indexOf("dharwad"));
+            console.log("String value-indexOf after 20 char ="+" "+index.indexOf("dharwad",20));
+            console.log("String Last-indexOf ="+" "+index.lastIndexOf("dharwad"));
+            console.log("String No-indexOf ="+" "+index.indexOf("mysore"));
+            console.log("JS String Search Examples");
+            console.log("String search ="+" "+index.search("chitradurga"));
+            console.log("String search- not takes second start  ="+" "+index.search("dharwad",20));
+            console.log("String include" +" "+index.includes("haveri"));
+            console.log("String include" +" "+index.includes("london"));
+            console.log("String startswith" +" "+index.startsWith("Hubli"));
+            console.log("String startswith" +" "+index.startsWith("dharwad"));
+            console.log("String startswith" +" "+index.startsWith("dharwad",6));
+            console.log("String Endswith" +" "+index.endsWith("bangalore"));
+            console.log("String Endswith" +" "+index.endsWith("dharwad",15));
+            </script>
+    
+            
+            
         </div>
     </body>
 </html> 
