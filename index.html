@@ -57,10 +57,10 @@
             <div class="col-lg-2">
                 <img class="logo" src="./logo.jpg" > 
             </div>
-            <div class="col-lg-5 align-self-center"> 
-                <button type="button" class="btn btn-warning btn-lg tip" data-toggle="modal" data-target="#reservtable">
+                <div class="col-lg-5 align-self-center"> 
+                    <button type="button" class="btn btn-warning btn-lg tip" data-toggle="modal" data-target="#reservtable">
                     Reserve Table</button>
-                <span class="book_table">Click To Book Table</span>   
+                    <span class="book_table">Click To Book Table</span>   
                 </div>
     </div>
     <div class="string-methods">
@@ -73,9 +73,9 @@
         <p class="String-concat">String-Contact - Javascript is a  - Dynamic Language</p>
         <p class="String-trim">     My javascript</p>
         <p class="String-chartat">String-chartat(2) - MNC Culture</p>
-
+        <p class="string-indexof">String - indexOf(): Javascript is dynamic lanaguage used to show dynamic pages.</p>
     </div>
-    </div>
+</div>
 </header>
 <div class="container">
     <div class="row"> 
@@ -312,6 +312,35 @@ console.log(text4.length , text5.length);
     let text="MNC Culture";
     console.log(text.charAt(2))
 }
+let str1 = "Javascript is dynamic lanaguage used to show dynamic pages";
+console.log(str1.indexOf("dynamic"));
+
+let str2 = "Javascript is dynamic lanaguage used to show dynamic pages";
+console.log(str2.lastIndexOf("dynamic"));
+
+let str3 = "Javascript is dynamic lanaguage used to show dynamic pages";
+console.log(str3.indexOf("kool"),str3.lastIndexOf("bharath"));
+
+let str4 = "this is my country and i love this 'country!'";
+console.log(str4.indexOf("country",20),str4.lastIndexOf("country",25));
+
+{
+    const str = "my name is bharath im working in HCL";
+    console.log(str.search("bharath"));
+    
+}
+let text6 = "this is my world India";
+console.log(text6.includes("India"),text6.includes("pak"), text6.includes("India",17),text6.includes("India",18));
+
+var str5 = "Today is Makarasankaranti";
+console.log(str5.startsWith("Today"), str5.startsWith("Makara"));
+
+let text7 = "Makarasankarnati is celebrate on jan 14";
+console.log(text7.endsWith("jan 14"), text7.endsWith("celebrate"), text7.startsWith("celebrate",20), text7.startsWith("celebrate",10));
+
+
+const str9=`Father of Nation "Gandhi!"`;
+console.log(str9);
 
      // let text1 ="This is to Show Example of String Length";
     // let text2 ="JAVASCRIPT IS A";
